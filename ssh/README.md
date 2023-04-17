@@ -1,3 +1,11 @@
+### SSH (Secure Shell)란?
+---
+
+- ***원격 호스트에 접속하기 위해 사용되는 보안 프로토콜***이다.
+- 원격 호스트에 접속을 하기는 하는데 일반적인 GUI화면이 아닌 Shell로 원격 호스트를 제어한다.
+  > Shell이란 검은화면에 흰색 글자를 입력하는 CLI(Command Line Interface)를 생각하면 된다.
+- 강력한 암호화 방식으로 연결되어 있기 때문에 ***데이터를 중간에 가로채도 해석할 수 없는 암호화된 문자만이 노출***된다.
+  - HTTP와 HTTPS의 차이와 비슷하다.  
 
 
 ### SSH 접속해보기
@@ -80,4 +88,4 @@ https://opentutorials.org/module/432/3742
 
 https://www.lesstif.com/software-architect/ssh-load-key-invalid-format-openssh-rsa-106856464.html
 
-ssh-keygen : https://ydeer.tistory.com/298
+> ssh-keygen 관련 옵션 : https://ydeer.tistory.com/298
