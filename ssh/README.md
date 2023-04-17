@@ -115,8 +115,6 @@ ssh -p 2222 root@localhost
 
 
 
-https://opentutorials.org/module/432/3742
-
-https://www.lesstif.com/software-architect/ssh-load-key-invalid-format-openssh-rsa-106856464.html
-
+> ssh 관련 설명: https://opentutorials.org/module/432/3742 <br/>
+> SSH Load key "Invalid format" 에러 처리: https://www.lesstif.com/software-architect/ssh-load-key-invalid-format-openssh-rsa-106856464.html <br/>
 > ssh-keygen 관련 옵션 : https://ydeer.tistory.com/298
