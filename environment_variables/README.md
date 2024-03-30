@@ -1,0 +1,1 @@
+> [Ubuntu EnvironmentVariables](https://help.ubuntu.com/community/EnvironmentVariables?_gl=1*buunx6*_gcl_au*MTI4MjYxMTQyMi4xNzExNzk1MDA1&_ga=2.76506716.856010748.1711794989-856803028.1711794989)
