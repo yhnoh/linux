@@ -78,4 +78,27 @@
   - 링크를 만드는 명령어
 - stat
 
+내가 입력한 커맨드의 실행 경로를 찾는다.
+$PATH: 환경 
+커맨드를 입력하면 $PATH에 나와있는 폴더들을 순차적으로 뒤지고 난다음에 해당 명령어가 찾아지면 실행을 한다.
+which라는 커맨드를 이용하 커맨드 경로를 확인할 수 있다.
+shell script 파일을 작성하고 해당 파일이름을 입력을 하게되면 `command not found`, 즉 명령어를 찾을 수 없다고 나온다.
 
+```sh
+firsh.sh
+
+## firsh.sh: command not found, 명령어를 찾을 수 없습니다.
+
+echo $PATH
+## /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+## $PATH를 확인해보면 사용자가 작성한 스크립트 파일의 경로가 없기때문에 command not found가 나온다.
+
+## 때문에 경로를 지정하여 사용해야한다.
+./firsh.sh
+```
+- 명령어를 찾을 수 없는 이유는 해당 `echo $PATH`에 설정이 되어 있지 않기 때문이다.
+
+
+> https://help.ubuntu.com/community/EnvironmentVariables?_gl=1*buunx6*_gcl_au*MTI4MjYxMTQyMi4xNzExNzk1MDA1&_ga=2.76506716.856010748.1711794989-856803028.1711794989#Persistent_environment_variables
+> [Ubuntu EnvironmentVariables](https://help.ubuntu.com/community/EnvironmentVariables?_gl=1*buunx6*_gcl_au*MTI4MjYxMTQyMi4xNzExNzk1MDA1&_ga=2.76506716.856010748.1711794989-856803028.1711794989)
